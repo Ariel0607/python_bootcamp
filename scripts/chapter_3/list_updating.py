@@ -22,6 +22,12 @@ motorcycles.append('yamaha')
 motorcycles.append('suzuki')
 print(motorcycles)
 
+##extend function is to append a list/multiple items to an existing list
+motorcycles = ['honda', 'yamaha', 'suzuki'] 
+test = ['toyota', 'audi']
+motorcycles.extend(test)
+print(motorcycles)
+
 
 ## INSERT
 #Inserting Elements into a List
